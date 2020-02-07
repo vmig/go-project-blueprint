@@ -1,4 +1,4 @@
-module github.com/MartinHeinz/go-project-blueprint
+module github.com/vmig/go-project-blueprint
 
 go 1.12
 

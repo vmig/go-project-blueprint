@@ -1,9 +1,9 @@
 # Blueprint/Boilerplate For Golang Projects
 
-[![Build Status](https://travis-ci.com/MartinHeinz/go-project-blueprint.svg?branch=master)](https://travis-ci.com/MartinHeinz/go-project-blueprint)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=MartinHeinz_go-project-blueprint&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=MartinHeinz_go-project-blueprint)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/ec7ebefe63609984cb5c/test_coverage)](https://codeclimate.com/github/MartinHeinz/go-project-blueprint/test_coverage)
-[![Go Report Card](https://goreportcard.com/badge/github.com/MartinHeinz/go-project-blueprint)](https://goreportcard.com/report/github.com/MartinHeinz/go-project-blueprint)
+[![Build Status](https://travis-ci.com/vmig/go-project-blueprint.svg?branch=master)](https://travis-ci.com/vmig/go-project-blueprint)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=vmig_go-project-blueprint&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=vmig_go-project-blueprint)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/ec7ebefe63609984cb5c/test_coverage)](https://codeclimate.com/github/vmig/go-project-blueprint/test_coverage)
+[![Go Report Card](https://goreportcard.com/badge/github.com/vmig/go-project-blueprint)](https://goreportcard.com/report/github.com/vmig/go-project-blueprint)
 
 ## Blog Posts - More Information About This Repo
 
@@ -15,7 +15,7 @@ You can find more information about this project/repository and how to use it in
 - [Setting Up Swagger Docs for Golang API](https://towardsdatascience.com/setting-up-swagger-docs-for-golang-api-8d0442263641)
 
 ### Setting Up
-- Replace All Occurrences of `martinheinz/go-project-blueprint` with your username repository name
+- Replace All Occurrences of `vmig/go-project-blueprint` with your username repository name
 - Replace All Occurrences of `blueprint` with your desired image name
 
 
@@ -30,17 +30,17 @@ Create and Push:
 
 ```bash
 docker login docker.pkg.github.com -u <USERNAME> -p <GITHUB_TOKEN>
-docker build -t  docker.pkg.github.com/martinheinz/go-project-blueprint/blueprint:latest .
+docker build -t  docker.pkg.github.com/vmig/go-project-blueprint/blueprint:latest .
 # make container
-docker push docker.pkg.github.com/martinheinz/go-project-blueprint/blueprint:latest
+docker push docker.pkg.github.com/vmig/go-project-blueprint/blueprint:latest
 # make push
 ```
 
 Pull and Run:
 
 ```bash
-docker pull docker.pkg.github.com/martinheinz/go-project-blueprint/blueprint:latest
-docker run docker.pkg.github.com/martinheinz/go-project-blueprint/blueprint:latest
+docker pull docker.pkg.github.com/vmig/go-project-blueprint/blueprint:latest
+docker run docker.pkg.github.com/vmig/go-project-blueprint/blueprint:latest
 ```
 
 
